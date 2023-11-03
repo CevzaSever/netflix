@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>NET<span>FLIX</span></h1>
+        <div class="explanation">
+          <p>
+            Thank you for signing up at Netflix.Tell us more about yourself.
+          </p>
+        </div>
+      </header>
+      <div class="form">
+        <label  for="username">Name</label>
+        <br>
+        <input class="borderstyle"
+          type="text"
+          placeholder="Enter Your Name"
+          id="username"
+          name="username"
+        />
+        <br>
+        <label  for="number">Age</label>
+        <br>
+        <input class="borderstyle"
+          type="number"
+          placeholder="Age"
+          id="number"
+          name="number"
+          min="18"
+          max="100"
+        />
+        <br>
+        <label  for="mail">E-mail</label>
+        <br>
+        <input class="borderstyle"
+          type="text"
+          placeholder="example@netflix.com"
+          id="mail"
+          name="mail"
+        />
+        <br>
+        <label for="type">Content Type</label>
+        <br>
+        <select class="borderstyle" name="type" id="type">
+          <option value="Movie" selected>Movie</option>
+          <option value="Series">Series</option>
+          </select>
+          <br>
+          <br>
+          <div class="select">
+          <label id="checkbox">Movie type</label>
+          <br>
+          <input type="checkbox" name="movieType" id="comedy" value="comedy" />
+          <label for="comedy">Comedy</label>
+          <br>
+          <input type="checkbox" name="movieType" id="Action" value="Action" />
+        <label for="Action">Action</label>
+        <br>
+        <input type="checkbox" name="movieType" id="romance" value="romance" />
+        <label for="romance" >Romance</label>
+    </div>
+    <br>
+        <div class="select">
+        <label id="radio">Gender</label>
+          <br>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <br>
+          <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="other" value="other" />
+        <label for="other" >Other</label>
+        <br>
+        <br>
+    </div>
+        <label for="feedback">Feedback</label>
+        <br>
+          <textarea
+            name="feedback"
+            id="feedback"
+            placeholder="Enter Your Comment"
+            cols="50"
+            rows="5"
+          ></textarea>
+          <br>
+          <div>
+          <button class="send">Send</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
